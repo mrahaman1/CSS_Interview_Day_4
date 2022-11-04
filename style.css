@@ -1,0 +1,125 @@
+
+.cont{
+  background-image: url(./img_01.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: fit-content;
+  padding: 30px;
+  text-align: center;
+}
+
+p{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+nav{
+  display: flex;
+}
+
+#but{
+  margin-left: 700px;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+  }
+
+  button{
+    width: 100px;
+    background-color: #00a5ec9c;
+    border: 1px solid black;
+    margin: 25px;
+  }
+
+  .a{
+    display: flex;
+    margin-top: 50px;
+  }
+
+  .b{
+    height: fit-content;
+    width: 200px;
+    background-color: aqua;
+    margin: 20px;
+    padding: 20px;
+  }
+
+ .d{
+    width: 100px;
+    height: 20px;
+    margin: 20px;
+ }
+
+ #c{
+    display: flex;
+ }
+
+
+  @media only screen and (min-width:380px) and (max-width:480px) {
+    .a{
+        display: flex;
+        flex-wrap: wrap;
+        
+      }
+
+      .b{
+        height: 200px;
+        width: 200px;
+        background-color: rgb(4, 0, 255);
+        margin: 20px;
+        padding: 20px;
+      }
+
+      #c{
+        display: flex;
+        display: block;
+      }
+
+      .d{
+        background-color: green;
+        display: grid;
+      }
+  }
+
+
+  @media only screen and (min-width:480px) and (max-width:680px) {
+
+
+      #c{
+        display: flex;
+        display: block;
+      }
+
+      .d{
+        background-color: rgb(128, 17, 0);
+        display: grid;
+      }
+  }
+
+
+  .demo{
+    height: 100px;
+    width: 100px;
+    background-color: darkturquoise;
+    margin: 20px;
+    text-align: center;
+    padding: 30PX;
+  }
+
+  .div1{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .div2{
+    display: flex;
+    flex-flow: column-reverse;
+  }
+
+  .div3{
+    display: flex;
+    flex-flow: row-reverse;
+  }
